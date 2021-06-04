@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    list-style: none;
+}
+
+input,
+button {
+    font-family: "Archivo", sans-serif;
+}
+
+body,
+textarea {
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
+    font-family: "Archivo", sans-serif;
+    font-size: 15px;
+}
+
+body {
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: auto;
+}
+
+button {
+    cursor: pointer;
+}
