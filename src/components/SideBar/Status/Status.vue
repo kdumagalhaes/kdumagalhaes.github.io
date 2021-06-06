@@ -43,6 +43,7 @@ export default defineComponent({
 .status {
     border-left: 3px solid $color1;
     padding-left: 10px;
+
     .status__list {
         line-height: 23px;
 

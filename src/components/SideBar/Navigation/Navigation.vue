@@ -1,10 +1,14 @@
 <template>
     <nav class="navigation">
         <ul class="navigation__list">
-            <li><a href="#">about me</a></li>
-            <li><a href="#">developer</a></li>
-            <li><a href="#">musician</a></li>
-            <li><a href="#">contact me</a></li>
+            <li><a class="navigation__list--about-me" href="#">about me</a></li>
+            <li>
+                <a class="navigation__list--developer" href="#">developer</a>
+            </li>
+            <li><a class="navigation__list--musician" href="#">musician</a></li>
+            <li>
+                <a class="navigation__list--contact-me" href="#">contact me</a>
+            </li>
         </ul>
     </nav>
 </template>
@@ -25,6 +29,28 @@ export default defineComponent({})
             text-decoration: none;
             color: $color2;
             font-size: 1.2rem;
+            transition: color 0.4s;
+        }
+
+        .navigation__list--about-me {
+            &:hover {
+                color: $color1;
+            }
+        }
+        .navigation__list--developer {
+            &:hover {
+                color: $color5;
+            }
+        }
+        .navigation__list--musician {
+            &:hover {
+                color: $color4;
+            }
+        }
+        .navigation__list--contact-me {
+            &:hover {
+                color: $color6;
+            }
         }
     }
 }
