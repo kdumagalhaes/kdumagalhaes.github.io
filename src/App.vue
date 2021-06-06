@@ -5,15 +5,17 @@
                 working as Lead Product Specialist... and sometimes a musician
                 :)"
     />
+    <Status company="VTEX" studying="VueJS" country="Brazil" />
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-import { Profile } from '@/components/index'
+import { Profile, Status } from '@/components/index'
 
 export default defineComponent({
     components: {
         Profile,
+        Status,
     },
 })
 </script>
