@@ -6,16 +6,18 @@
                 :)"
     />
     <Status company="VTEX" studying="VueJS" country="Brazil" />
+    <Navigation />
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-import { Profile, Status } from '@/components/index'
+import { Profile, Status, Navigation } from '@/components/index'
 
 export default defineComponent({
     components: {
         Profile,
         Status,
+        Navigation,
     },
 })
 </script>
