@@ -1,18 +1,24 @@
 <template>
-    <div>
+    <div class="app">
         <SideBar />
+        <AboutMe />
     </div>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-import { SideBar } from '@/components/index'
+import { SideBar, AboutMe } from '@/components/index'
 
 export default defineComponent({
     components: {
         SideBar,
+        AboutMe,
     },
 })
 </script>
 
-<style lang="scss"></style>
+<style scoped lang="scss">
+.app {
+    display: flex;
+}
+</style>
