@@ -18,12 +18,13 @@ export default defineComponent({})
 <style scoped lang="scss">
 .navigation {
     .navigation__list {
-        line-height: 30px;
+        line-height: 33px;
 
         a {
             font-weight: $bold;
             text-decoration: none;
             color: $color2;
+            font-size: 1.2rem;
         }
     }
 }

@@ -41,6 +41,8 @@ export default defineComponent({
 
 <style scoped lang="scss">
 .status {
+    border-left: 3px solid $color1;
+    padding-left: 10px;
     .status__list {
         line-height: 23px;
 
